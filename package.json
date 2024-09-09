@@ -1,0 +1,22 @@
+{
+  "name": "jujutsukaisentheme",
+  "displayName": "Jujutsukaisentheme",
+  "description": "custom vs code",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Jujutsukaisentheme",
+        "uiTheme": "hc-black",  // Du kannst hier "vs-dark" verwenden, wenn du kein High-Contrast-Theme möchtest
+        "path": "./themes/Jujutsukaisentheme-color-theme.json"
+      }
+    ]
+  }
+}
+
